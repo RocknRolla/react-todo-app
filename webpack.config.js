@@ -24,7 +24,8 @@ module.exports = {
         root: __dirname,
         modulesDirectories: [
             'node_modules',
-            './frontend/components'
+            './frontend/components',
+            './frontend/api'
         ],
         alias: {
             applicationStyles: 'frontend/css/app.scss'

@@ -4,6 +4,9 @@ let { Route, Router, IndexRoute, hashHistory } = require('react-router');
 
 let {TodoApp} = require('TodoApp');
 
+let actions = require('actions');
+let store = require('configureStore').configure();
+
 $(document).foundation();
 
 require('style!css!sass!applicationStyles');

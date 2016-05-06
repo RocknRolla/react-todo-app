@@ -4,7 +4,7 @@ let TestUtils = require('react-addons-test-utils');
 let expect = require('expect');
 let $ = require('jquery');
 
-let {TodoSearch} = require('TodoSearch');
+let TodoSearch = require('TodoSearch');
 
 describe('TodoSearch', () => {
     it('should exist', () => {

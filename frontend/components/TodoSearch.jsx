@@ -24,4 +24,4 @@ let TodoSearch = React.createClass({
     }
 });
 
-module.exports = {TodoSearch};
+module.exports = TodoSearch;
